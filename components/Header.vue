@@ -13,7 +13,16 @@ const route = useRoute()
       <NuxtLink to="/">Home</NuxtLink>
 
       <!-- Terms of Service -->
-      <NuxtLink to="/tos">TOS</NuxtLink>
+      <div class="nav-dropdown">
+        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/tos') }">
+          TOS ▾
+        </span>
+        <div class="dropdown-menu">
+          <NuxtLink to="/tos/bot">Bot Terms of Service</NuxtLink>
+          <NuxtLink to="/tos/contributors">Contributor Agreement</NuxtLink>
+          <NuxtLink to="/tos/discord">Discord Server Terms</NuxtLink>
+        </div>
+      </div>
 
       <!-- Privacy Dropdown -->
       <div class="nav-dropdown">
