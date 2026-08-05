@@ -27,9 +27,8 @@ export default defineNuxtConfig({
     documentDriven: false
   },
 
-  // Nitro engine configuration optimized for Cloudflare Pages
   nitro: {
-    preset: 'cloudflare-pages',
+    preset: 'vercel',
     prerender: {
       crawlLinks: true,
       // Prevents broken links or missing content queries from blowing up the deployment
