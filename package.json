@@ -3,11 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "install": "npm install --ignore-scripts",
-    "build": "nuxt build",
+    "build": "node ./node_modules/nuxt/bin/nuxt.mjs build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "generate": "node ./node_modules/nuxt/bin/nuxt.mjs generate",
+    "preview": "node ./node_modules/nuxt/bin/nuxt.mjs preview"
   },
   "devDependencies": {
     "@nuxt/content": "^2.12.0",
