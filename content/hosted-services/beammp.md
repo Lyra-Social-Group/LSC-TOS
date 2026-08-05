@@ -1,7 +1,21 @@
 ---
-title: ProGaming Server BeamMP Terms of Service
-description: Terms governing use of ProGaming Server BeamMP services operated by Lyra's Cuck HQ under Lyra Social Group LLC.
-effective_date: August 5, 2026
+title: "ProGaming Server BeamMP Terms of Service"
+description: "Terms governing use of ProGaming Server BeamMP services operated by Lyra's Cuck HQ under Lyra Social Group LLC."
+effective_date: "August 5, 2026"
+head:
+  meta:
+    - property: "og:title"
+      content: "ProGaming Server BeamMP Terms of Service"
+    - property: "og:description"
+      content: "Terms governing use of ProGaming Server BeamMP services operated by Lyra's Cuck HQ under Lyra Social Group LLC."
+    - property: "og:type"
+      content: "article"
+    - property: "og:image"
+      content: "https://legal.lyrasocialgroup.tech/logo.png"
+    - name: "theme-color"
+      content: "#A033ED"
+    - name: "twitter:card"
+      content: "summary"
 ---
 
 # ProGaming Server BeamMP Terms of Service
