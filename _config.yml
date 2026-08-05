@@ -2,6 +2,10 @@ title: Lyra Social Group — Legal & Community Hub
 description: Official Legal Terms, Privacy Disclosures, and Governance Documentation for LSG & LCH.
 theme: minima
 
+# Inject custom SCSS
+sass:
+  style: compressed
+
 kramdown:
   input: GFM
   hard_wrap: false

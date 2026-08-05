@@ -1,0 +1,122 @@
+---
+---
+
+/* Reset & Base Variables */
+:root {
+  --lsg-cyan: #45D0FF;
+  --lsg-violet: #9E65FF;
+  --lsg-pink: #FCE1EC;
+  --lsg-magenta: #FF3EA5;
+  --lsg-dark-bg: #0F0A1C;
+  --lsg-card-bg: rgba(29, 18, 54, 0.75);
+  --lsg-border: rgba(158, 101, 255, 0.3);
+  --lsg-text: #E6E1FA;
+  --lsg-heading: #FFFFFF;
+}
+
+body {
+  background: linear-gradient(135deg, #120924 0%, #25103E 50%, #3D1248 100%) fixed;
+  color: var(--lsg-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Header & Brand Container */
+.site-header {
+  background: rgba(15, 10, 28, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--lsg-border);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-title {
+  color: var(--lsg-cyan) !important;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(69, 208, 255, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Document Container Card */
+.page-content, .wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: var(--lsg-card-bg);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--lsg-border);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(158, 101, 255, 0.15);
+}
+
+/* Typography & Links */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--lsg-heading);
+  font-weight: 600;
+  border-bottom: 1px solid var(--lsg-border);
+  padding-bottom: 0.4rem;
+}
+
+h1 {
+  background: linear-gradient(90deg, var(--lsg-cyan), var(--lsg-violet));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2rem;
+  border-bottom: 2px solid var(--lsg-violet);
+}
+
+a {
+  color: var(--lsg-cyan);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--lsg-pink);
+  text-shadow: 0 0 8px rgba(252, 225, 236, 0.6);
+}
+
+/* Code Blocks & Tables */
+pre, code {
+  background: #080411 !important;
+  border: 1px solid var(--lsg-border);
+  border-radius: 8px;
+  color: var(--lsg-pink) !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  border: 1px solid var(--lsg-border);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: rgba(158, 101, 255, 0.2);
+  color: var(--lsg-cyan);
+}
+
+/* Blockquotes / Callout boxes */
+blockquote {
+  border-left: 4px solid var(--lsg-magenta);
+  background: rgba(255, 62, 165, 0.08);
+  margin: 1rem 0;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 8px 8px 0;
+}
