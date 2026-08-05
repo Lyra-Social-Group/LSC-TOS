@@ -1,4 +1,4 @@
-```markdown
+
 # Lyra Social Group — Legal & Community Hub (LCH-TOS)
 
 Welcome to the central governance and legal repository for **Lyra Social Group** (LSG). This repository serves as the definitive, single-source-of-truth for all binding Terms of Service, privacy disclosures, operational frameworks, and community conduct standards governing our digital footprint.
@@ -20,14 +20,14 @@ Every policy in this repository operates under a unified hierarchy:
 
 ## 📜 Complete Document Index & Directory Structure
 
-```
+
 LCH-TOS/
 ├── tos/               # Binding legal terms and user service agreements
 ├── privacy/           # Telemetry disclosures, retention rules, and privacy policies
 ├── community/         # Member conduct guidelines, moderation standards, and appeals
 ├── governance/        # Ethical frameworks and operational mandates for staff
 └── [repository root]  # Administrative guidelines, security protocols, and repo metadata
-```
+
 
 ### 1. Terms of Service (`tos/`)
 Legal agreements defining the contractual relationship, service limitations, and intellectual property conditions between users and Lyra Social Group.
