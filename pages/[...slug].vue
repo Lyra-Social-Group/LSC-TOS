@@ -1,34 +1,35 @@
 <script setup>
 const route = useRoute()
 
-// 1. Cleanly parse path segments from route params
-const slugArray = Array.isArray(route.params.slug) 
-  ? route.params.slug 
-  : (route.params.slug ? [route.params.slug] : [])
+// Force useAsyncData to re-evaluate dynamically whenever the route changes
+const { data: page } = await useAsyncData(
+  () => `content-doc-${route.path}`,
+  async () => {
+    // 1. Query directly by route path (Standard Nuxt Content v2 method)
+    let doc = await queryContent(route.path).findOne().catch(() => null)
+    if (doc) return doc
 
-const cleanSlug = slugArray.filter(Boolean).join('/')
-const pathWithSlash = '/' + cleanSlug
-const pathNoSlash = cleanSlug || 'index'
+    // 2. Fallback: Query by exact _path attribute
+    doc = await queryContent().where({ _path: route.path }).findOne().catch(() => null)
+    if (doc) return doc
 
-// 2. Fetch document matching Nuxt Content indexing variants
-const { data: page } = await useAsyncData(`content-${pathWithSlash}`, async () => {
-  // Query 1: Leading slash (e.g., '/old-tos/lch-tos')
-  let doc = await queryContent().where({ _path: pathWithSlash }).findOne().catch(() => null)
-  if (doc) return doc
+    // 3. Fallback: Query without leading slash
+    const noSlash = route.path.replace(/^\//, '')
+    doc = await queryContent().where({ _path: noSlash }).findOne().catch(() => null)
+    if (doc) return doc
 
-  // Query 2: Standard route lookup shorthand
-  doc = await queryContent(pathWithSlash).findOne().catch(() => null)
-  if (doc) return doc
+    // 4. Debugging: Output available database keys to DevTools console
+    const allDocs = await queryContent().only(['_path', 'title']).find().catch(() => [])
+    console.log('🔍 [LSG Legal Portal] Indexed content paths in SQLite:', allDocs)
 
-  // Query 3: Without leading slash (e.g., 'old-tos/lch-tos')
-  doc = await queryContent().where({ _path: pathNoSlash }).findOne().catch(() => null)
-  if (doc) return doc
+    return null
+  },
+  {
+    watch: [() => route.path] // Ensure reactivity on client-side route transitions
+  }
+)
 
-  // Query 4: Folder index fallback (e.g., '/old-tos/index')
-  return await queryContent().where({ _path: pathWithSlash + '/index' }).findOne().catch(() => null)
-})
-
-// 3. Dynamically update Page Title & Description using getter functions for reactivity
+// Dynamic Page Title & Description
 useHead({
   title: () => page.value?.title || 'Document Not Found',
   meta: [

@@ -1,10 +1,10 @@
 ---
-Document: "Legacy Lyra Community Hub TOS"
-Version: "0.9.0-ARCHIVED"
-"Effective Date": "2024-01-01"
-"Last Updated": "2025-12-31"
-Maintainer: "Lyra Social Group Administration"
-Contact: "LEGAL@LYRAFOXWOOD.APP"
+title: "Legacy Lyra Community Hub TOS"
+description: "Archived Terms of Service and Community Governance document."
+effective_date: "2024-01-01"
+last_updated: "2025-12-31"
+maintainer: "Lyra Social Group Administration"
+contact: "LEGAL@LYRAFOXWOOD.APP"
 ---
 
 # **TERMS OF SERVICE & COMMUNITY GOVERNANCE**

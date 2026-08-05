@@ -43,17 +43,6 @@ const route = useRoute()
 
       <!-- Governance Link -->
       <NuxtLink to="/governance/staff-code-of-conduct">Staff Conduct</NuxtLink>
-
-      <!-- Archive Dropdown -->
-      <div class="nav-dropdown">
-        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/oldtos') }">
-          Archive ▾
-        </span>
-        <div class="dropdown-menu">
-          <NuxtLink to="/oldtos/lchtos">Legacy LCH TOS</NuxtLink>
-          <NuxtLink to="/oldtos/holymoly">Legacy Bot TOS</NuxtLink>
-        </div>
-      </div>
     </nav>
   </header>
 </template>

@@ -1,10 +1,10 @@
 ---
-Document: "Legacy HOLY MOLY BOT TOS"
-Version: "0.9.0-ARCHIVED"
-"Effective Date": "2024-01-01"
-"Last Updated": "2025-12-31"
-Maintainer: "Lyra Social Group Administration"
-Contact: "LEGAL@LYRAFOXWOOD.APP"
+title: "Legacy HOLY MOLY BOT TOS"
+description: "Archived Terms of Service and Privacy Policy for Holy Moly Bot."
+effective_date: "2024-01-01"
+last_updated: "2025-12-31"
+maintainer: "Lyra Social Group Administration"
+contact: "LEGAL@LYRAFOXWOOD.APP"
 ---
 
 # **HOLY MOLY BOT - TERMS OF SERVICE & PRIVACY POLICY**
