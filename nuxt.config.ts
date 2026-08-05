@@ -47,10 +47,14 @@ export default defineNuxtConfig({
         '/community/creators',
         '/community/events',
         '/community/verification',
-        '/governance/staff-code-of-conduct',
+        '/governance',
         '/hosted-services/beammp',
         '/lyrascuckhq/lchdiscordtos',
-        '/lyrascuckhq/holymolybot'
+        '/lyrascuckhq/holymolybot',
+        '/employee',
+        '/employee/staff-code-of-conduct',
+        '/employee/employee-social-media'
+
       ]
     }
   }

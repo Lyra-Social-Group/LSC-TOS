@@ -4,39 +4,233 @@ Version: 1.0.0
 Effective Date: 2026-08-05
 Last Updated: 2026-08-05
 Maintainer: Lyra Social Group Administration
+Owner: Lyra Social Group LLC
 Contact: LEGAL@LYRAFOXWOOD.APP
 ---
 
 # Contributor Agreement
 
-## 1. Scope of Contributions
-This Contributor Agreement ("Agreement") governs all software code, documentation, graphics, bot commands, configuration files, 3D assets, audio, or other media contributed to **Lyra Social Group** projects, repositories, and digital infrastructure (collectively, "Projects").
+Welcome to the Lyra Social Group Contributor Agreement ("Agreement").
 
-By submitting a Pull Request, submitting code/assets via community pipelines, or directly committing to any Lyra Social Group repository, you explicitly accept and agree to the terms outlined in this document.
+This Agreement governs all contributions made to projects owned, maintained, or operated by **Lyra Social Group LLC** ("Lyra Social Group", "LSG", "we", "our", or "us").
 
-## 2. Intellectual Property & Grant of License
-* **License Grant:** You retain copyright to your original work. However, by contributing, you hereby grant **Lyra Social Group**, its maintainers, and its successors a perpetual, worldwide, non-exclusive, royalty-free, irrevocable, sublicensable license to use, reproduce, modify, adapt, publish, perform, display, and distribute your contributions across our ecosystem (including Discord services, VRChat instances, web platforms, and automated tools).
-* **Non-Commercial Alignment:** You acknowledge that contributions will be governed under the project's primary licensing frameworks, including custom non-commercial and community licensing models maintained by Lyra Social Group.
+By submitting code, documentation, artwork, media, translations, configurations, bug reports, feature requests, pull requests, or other contributions to any Lyra Social Group project, you agree to the terms of this Agreement.
 
-## 3. Originality of Work & Third-Party Rights
-You represent, warrant, and guarantee that:
-* **Original Creation:** Your contribution is entirely your original creation, or you possess the necessary explicit permissions, licenses, and legal rights from the copyright holder to submit the material under these terms.
-* **No Infringement:** Your contribution does not infringe upon any third-party patent, copyright, trademark, trade secret, or other proprietary rights.
-* **Dependencies & Third-Party Code:** If your contribution contains open-source code, assets, or libraries created by third parties, you must clearly identify the code source and include all relevant license headers (e.g., MIT, Apache 2.0, Creative Commons) within the submission.
+---
 
-## 4. No Employment or Compensation
-* **Voluntary Submissions:** All contributions made to Lyra Social Group are submitted purely on a voluntary basis.
-* **No Financial Claim:** Submission of code or assets does not establish an employment, contractor, agency, or joint-venture relationship with Lyra Social Group, nor does it entitle the contributor to monetary compensation, royalties, or equity.
+# 1. Scope
 
-## 5. Right to Modify, Revert, or Remove
-Lyra Social Group Administration retains full authority to:
-* Review, accept, modify, or reject any submission at its sole discretion.
-* Refactor, relicense (in accordance with overarching project goals), or permanently remove any contributed code or asset from our repositories and active services without prior notice.
+This Agreement applies to contributions made to:
 
-## 6. Moral Rights & Attribution
-To the extent allowed by law, you waive or agree not to assert any "moral rights" or rights of attribution that would prevent Lyra Social Group from deploying, updating, or modifying your submitted contributions. Public attribution for major contributions will be maintained via git commit histories and optional `CONTRIBUTORS.md` acknowledgments.
+- Git repositories
+- Discord bot projects
+- Websites
+- APIs
+- Documentation
+- Graphics and artwork
+- Audio and music
+- Video content
+- VRChat assets
+- Configuration files
+- Internal tooling
+- Community resources
+- Any future Lyra Social Group project
 
-## 7. Contact & Inquiries
-For questions regarding licensing permissions, asset usage, or contribution policies, please contact administration at:
-* **Legal Email:** [LEGAL@LYRAFOXWOOD.APP](mailto:LEGAL@LYRAFOXWOOD.APP)
-* **General Administrative Email:** [lsg@lyrafoxwood.app](mailto:lsg@lyrafoxwood.app)
+Contributions may be submitted through Git, GitHub, Discord, email, support systems, or any other approved submission method.
+
+---
+
+# 2. Ownership of Contributions
+
+Unless otherwise agreed in writing:
+
+- You retain copyright ownership of your original work.
+- You remain responsible for ensuring you have the legal right to submit your contribution.
+
+---
+
+# 3. License Grant
+
+By contributing, you grant Lyra Social Group LLC a perpetual, worldwide, non-exclusive, royalty-free, irrevocable, transferable, and sublicensable license to:
+
+- Use
+- Copy
+- Modify
+- Merge
+- Publish
+- Translate
+- Distribute
+- Display
+- Perform
+- Adapt
+- Re-license where permitted
+- Incorporate your contribution into existing or future projects
+
+This license exists solely to allow Lyra Social Group to develop, maintain, distribute, and operate its services.
+
+---
+
+# 4. Your Representations
+
+By submitting a contribution, you represent that:
+
+- The contribution is your own original work, **or**
+- You have sufficient legal rights to submit it.
+
+You further represent that your contribution does not knowingly violate:
+
+- Copyright
+- Trademark
+- Patent
+- Trade secret
+- Privacy rights
+- Contractual obligations
+- Applicable law
+
+---
+
+# 5. Third-Party Materials
+
+If your contribution includes third-party materials, you must:
+
+- Identify the original source.
+- Comply with all applicable licenses.
+- Preserve required copyright notices.
+- Preserve license headers where required.
+
+You may not submit proprietary material that you do not have permission to distribute.
+
+---
+
+# 6. AI-Generated Contributions
+
+AI-assisted contributions are permitted unless a project specifies otherwise.
+
+If a substantial portion of a contribution was generated using AI tools, contributors should disclose this within the pull request or submission notes.
+
+Contributors remain fully responsible for:
+
+- Accuracy
+- Copyright compliance
+- Security
+- Licensing compatibility
+- Overall quality
+
+Submitting AI-generated content does not transfer responsibility to Lyra Social Group.
+
+---
+
+# 7. Code Quality
+
+Contributors should make reasonable efforts to ensure submissions:
+
+- Build successfully.
+- Follow project conventions.
+- Do not intentionally introduce security vulnerabilities.
+- Do not intentionally reduce system stability.
+- Include documentation where appropriate.
+- Include tests where practical.
+
+Submission does not guarantee acceptance.
+
+---
+
+# 8. Security
+
+If you discover a security vulnerability, you agree to report it privately through the designated security contact rather than publicly disclosing it before a fix is available.
+
+Responsible disclosure helps protect community members and infrastructure.
+
+---
+
+# 9. Code Review
+
+All contributions are subject to review.
+
+Lyra Social Group may:
+
+- Request revisions.
+- Reject submissions.
+- Modify contributions.
+- Rewrite portions of submissions.
+- Revert accepted contributions.
+- Remove contributions from future releases.
+
+Acceptance into a repository does not guarantee permanent inclusion.
+
+---
+
+# 10. No Compensation
+
+Unless a separate written agreement exists:
+
+- Contributions are voluntary.
+- Contributors are not employees.
+- Contributors are not contractors.
+- Contributors are not entitled to compensation, royalties, revenue sharing, equity, or future employment.
+
+---
+
+# 11. Attribution
+
+Where practical, contributor attribution will generally be maintained through:
+
+- Git commit history
+- Repository history
+- Contributor listings
+- Release notes
+
+Lyra Social Group is not obligated to publicly credit every contribution.
+
+---
+
+# 12. Moral Rights
+
+To the extent permitted by applicable law, contributors agree not to assert moral rights in a manner that would prevent Lyra Social Group from:
+
+- Maintaining projects.
+- Refactoring code.
+- Editing documentation.
+- Modifying artwork.
+- Updating assets.
+- Discontinuing projects.
+
+---
+
+# 13. Removal Requests
+
+Because contributions may become integrated into larger works, Lyra Social Group cannot guarantee that accepted contributions can later be removed.
+
+Requests may be considered on a case-by-case basis but are not guaranteed.
+
+---
+
+# 14. Termination
+
+This Agreement remains effective for contributions already submitted.
+
+Ending your participation in a project does not revoke licenses previously granted under this Agreement.
+
+---
+
+# 15. Changes to this Agreement
+
+Lyra Social Group may update this Agreement periodically.
+
+Future contributions will be governed by the version of this Agreement in effect when they are submitted unless otherwise stated.
+
+---
+
+# 16. Contact
+
+Questions regarding contributions, licensing, or intellectual property may be directed to:
+
+**Legal & Compliance**  
+LEGAL@LYRAFOXWOOD.APP
+
+**General Administration**  
+LSG@LYRAFOXWOOD.APP
+
+---
+
+© 2026 Lyra Social Group LLC. All rights reserved.

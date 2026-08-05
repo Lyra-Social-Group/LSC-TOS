@@ -71,9 +71,28 @@ const route = useRoute()
         </div>
       </div>
 
-      <!-- Governance Link -->
-      <NuxtLink to="/governance/staff-code-of-conduct">Staff Conduct</NuxtLink>
+      <!-- employee Dropdown -->
+      <div class="nav-dropdown">
+        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/employee') }">
+          employee ▾
+        </span>
+        <div class="dropdown-menu">
+          <NuxtLink to="/employee/staff-code-of-conduct">Staff Conduct</NuxtLink>
+          <NuxtLink to="/employee/employee-social-media">social media employee TOS</NuxtLink>
+        </div>
+      </div>
     </nav>
+    
+    <!-- old TOS Dropdown -->
+      <div class="nav-dropdown">
+        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/old-tos') }">
+          Arcives ▾
+        </span>
+        <div class="dropdown-menu">
+          <NuxtLink to="/old-tos/holy-moly">holy moly tos v1</NuxtLink>
+          <NuxtLink to="/old-tos/lch-tos">lyras cuck hq tos v1</NuxtLink>
+        </div>
+      </div>
   </header>
 </template>
 
