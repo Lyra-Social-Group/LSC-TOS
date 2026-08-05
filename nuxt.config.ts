@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   
-  // Ensures static HTML generation for GitHub Pages hosting
+  // Enables SSR and static site generation (SSG) for GitHub Pages
   ssr: true,
   
   app: {
@@ -19,8 +19,26 @@ export default defineNuxtConfig({
   },
 
   content: {
+    // Enable code syntax highlighting for code blocks in Markdown
     highlight: {
       theme: 'one-dark-pro'
+    },
+    // Document driven configuration for routing resolution
+    documentDriven: false
+  },
+
+  // Nitro static prerendering rules for static hosts like GitHub Pages
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/tos/discord',
+        '/privacy/privacy-policy',
+        '/community/guidelines',
+        '/old-tos/lch-tos',
+        '/old-tos/holy-moly-bot-tos'
+      ]
     }
   }
 })

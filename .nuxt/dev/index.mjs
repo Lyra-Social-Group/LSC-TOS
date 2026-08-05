@@ -667,6 +667,24 @@ const _inlineRuntimeConfig = {
       "/__nuxt_error": {
         "cache": false
       },
+      "/": {
+        "prerender": true
+      },
+      "/tos/discord": {
+        "prerender": true
+      },
+      "/privacy/privacy-policy": {
+        "prerender": true
+      },
+      "/community/guidelines": {
+        "prerender": true
+      },
+      "/old-tos/lch-tos": {
+        "prerender": true
+      },
+      "/old-tos/holy-moly-bot-tos": {
+        "prerender": true
+      },
       "/_nuxt/builds/meta/**": {
         "headers": {
           "cache-control": "public, max-age=31536000, immutable"
@@ -676,6 +694,30 @@ const _inlineRuntimeConfig = {
         "headers": {
           "cache-control": "public, max-age=1, immutable"
         }
+      },
+      "/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/tos/discord/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/privacy/privacy-policy/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/community/guidelines/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/old-tos/lch-tos/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/old-tos/holy-moly-bot-tos/_payload.json": {
+        "ssr": true,
+        "prerender": true
       }
     }
   },

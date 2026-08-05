@@ -325,6 +325,11 @@ At least **7 days prior** to taking full effect, except in cases involving:
 - Legal compliance requirements
 - Security emergencies
 
+### 5. Archive & Legacy Policies (`old-tos/`)
+Historical policy versions retained for audit transparency and legacy references.
+* [Legacy LCH Terms of Service](/old-tos/lch-tos) — Archival terms of service governing historical Lyra Community Hub instances.
+* [Legacy HOLY MOLY BOT TOS](/old-tos/holy-moly-bot-tos) — Prior operational terms and data policies for legacy bot builds.
+
 ---
 
 # 📧 Central Contact & Support Points

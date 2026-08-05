@@ -1,6 +1,23 @@
+<script setup>
+const route = useRoute()
+
+// Query content dynamically based on current route path
+const { data: page } = await useAsyncData(`content-${route.path}`, () => {
+  return queryContent(route.path).findOne()
+})
+</script>
+
 <template>
   <article class="markdown-body">
-    <ContentDoc />
+    <!-- Render document if found -->
+    <ContentRenderer v-if="page" :value="page" />
+    
+    <!-- Custom Glassmorphic 404 Fallback -->
+    <div v-else class="not-found-card">
+      <h1>404 — Document Not Found</h1>
+      <p>The requested legal document or archived spec does not exist at <code>{{ route.path }}</code>.</p>
+      <NuxtLink to="/">Return to Main Portal</NuxtLink>
+    </div>
   </article>
 </template>
 
@@ -17,7 +34,8 @@
   margin-top: 0;
 }
 
-.markdown-body h2, .markdown-body h3 {
+.markdown-body h2, 
+.markdown-body h3 {
   color: #FFFFFF;
   border-bottom: 1px solid var(--lsg-border);
   padding-bottom: 0.3rem;
@@ -54,5 +72,37 @@
   display: block;
   padding: 1rem;
   overflow-x: auto;
+}
+
+/* 404 Fallback Styling */
+.not-found-card {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.not-found-card h1 {
+  margin-bottom: 1rem;
+}
+
+.not-found-card p {
+  color: var(--lsg-text);
+  margin-bottom: 1.5rem;
+}
+
+.not-found-card a {
+  display: inline-block;
+  background: rgba(158, 101, 255, 0.2);
+  border: 1px solid var(--lsg-border);
+  color: var(--lsg-cyan);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.not-found-card a:hover {
+  background: rgba(158, 101, 255, 0.4);
+  color: #FFFFFF;
+  box-shadow: 0 0 12px rgba(69, 208, 255, 0.4);
 }
 </style>
