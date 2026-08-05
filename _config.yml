@@ -1,0 +1,34 @@
+```yaml
+# _config.yml — GitHub Pages Configuration
+title: Lyra Social Group — Legal & Community Hub
+description: Official Legal Terms, Privacy Disclosures, and Governance Documentation for LSG & LCH.
+theme: minima
+
+# Enable GitHub Flavored Markdown and automatic header links
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Site Navigation Structure
+header_pages:
+  - README.md
+  - tos/discord.md
+  - tos/bot.md
+  - tos/contributors.md
+  - privacy/privacy-policy.md
+  - privacy/data-retention.md
+  - community/guidelines.md
+  - community/moderation.md
+  - community/appeals.md
+  - community/events.md
+  - community/verification.md
+  - community/creators.md
+  - governance/staff-code-of-conduct.md
+
+# Defaults for Front Matter across all markdown files
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+```
