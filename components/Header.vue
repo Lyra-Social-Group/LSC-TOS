@@ -12,17 +12,8 @@ const route = useRoute()
     <nav class="lsg-nav">
       <NuxtLink to="/">Home</NuxtLink>
 
-      <!-- TOS Dropdown -->
-      <div class="nav-dropdown">
-        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/tos') }">
-          TOS ▾
-        </span>
-        <div class="dropdown-menu">
-          <NuxtLink to="/tos/discord">Discord TOS</NuxtLink>
-          <NuxtLink to="/tos/bot">Bot TOS</NuxtLink>
-          <NuxtLink to="/tos/contributors">Contributors Agreement</NuxtLink>
-        </div>
-      </div>
+      <!-- Terms of Service -->
+      <NuxtLink to="/tos">TOS</NuxtLink>
 
       <!-- Privacy Dropdown -->
       <div class="nav-dropdown">
@@ -55,12 +46,12 @@ const route = useRoute()
 
       <!-- Archive Dropdown -->
       <div class="nav-dropdown">
-        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/old-tos') }">
+        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/oldtos') }">
           Archive ▾
         </span>
         <div class="dropdown-menu">
-          <NuxtLink to="/old-tos/lch-tos">Legacy LCH TOS</NuxtLink>
-          <NuxtLink to="/old-tos/holy-moly-bot-tos">Legacy Bot TOS</NuxtLink>
+          <NuxtLink to="/oldtos/lchtos">Legacy LCH TOS</NuxtLink>
+          <NuxtLink to="/oldtos/holymoly">Legacy Bot TOS</NuxtLink>
         </div>
       </div>
     </nav>

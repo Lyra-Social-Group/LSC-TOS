@@ -1,9 +1,42 @@
 <script setup>
 const route = useRoute()
 
-// Query content dynamically based on current route path
-const { data: page } = await useAsyncData(`content-${route.path}`, () => {
-  return queryContent(route.path).findOne()
+// 1. Cleanly parse path segments from route params
+const slugArray = Array.isArray(route.params.slug) 
+  ? route.params.slug 
+  : (route.params.slug ? [route.params.slug] : [])
+
+const cleanSlug = slugArray.filter(Boolean).join('/')
+const pathWithSlash = '/' + cleanSlug
+const pathNoSlash = cleanSlug || 'index'
+
+// 2. Fetch document matching Nuxt Content indexing variants
+const { data: page } = await useAsyncData(`content-${pathWithSlash}`, async () => {
+  // Query 1: Leading slash (e.g., '/old-tos/lch-tos')
+  let doc = await queryContent().where({ _path: pathWithSlash }).findOne().catch(() => null)
+  if (doc) return doc
+
+  // Query 2: Standard route lookup shorthand
+  doc = await queryContent(pathWithSlash).findOne().catch(() => null)
+  if (doc) return doc
+
+  // Query 3: Without leading slash (e.g., 'old-tos/lch-tos')
+  doc = await queryContent().where({ _path: pathNoSlash }).findOne().catch(() => null)
+  if (doc) return doc
+
+  // Query 4: Folder index fallback (e.g., '/old-tos/index')
+  return await queryContent().where({ _path: pathWithSlash + '/index' }).findOne().catch(() => null)
+})
+
+// 3. Dynamically update Page Title & Description using getter functions for reactivity
+useHead({
+  title: () => page.value?.title || 'Document Not Found',
+  meta: [
+    { 
+      name: 'description', 
+      content: () => page.value?.description || 'Lyra Social Group Legal Portal Document' 
+    }
+  ]
 })
 </script>
 
