@@ -22,10 +22,15 @@ Every policy in this repository operates under a unified hierarchy:
 
 
 LCH-TOS/
+
 ├── tos/               # Binding legal terms and user service agreements
+
 ├── privacy/           # Telemetry disclosures, retention rules, and privacy policies
+
 ├── community/         # Member conduct guidelines, moderation standards, and appeals
+
 ├── governance/        # Ethical frameworks and operational mandates for staff
+
 └── [repository root]  # Administrative guidelines, security protocols, and repo metadata
 
 
