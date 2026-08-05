@@ -51,7 +51,8 @@ export default defineNuxtConfig({
         '/community/creators',
         '/community/events',
         '/community/verification',
-        '/governance/staff-code-of-conduct'
+        '/governance/staff-code-of-conduct',
+        '/hosted-services/beammp'
       ]
     }
   }

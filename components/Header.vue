@@ -35,6 +35,16 @@ const route = useRoute()
         </div>
       </div>
 
+      <!-- Hosted Services Dropdown -->
+      <div class="nav-dropdown">
+        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/hosted-services') }">
+          Hosted Services ▾
+        </span>
+        <div class="dropdown-menu">
+          <NuxtLink to="/hosted-services/beammp">BeamMP Server Terms</NuxtLink>
+        </div>
+      </div>
+
       <!-- Community Dropdown -->
       <div class="nav-dropdown">
         <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/community') }">
