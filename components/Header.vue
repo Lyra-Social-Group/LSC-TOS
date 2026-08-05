@@ -35,13 +35,15 @@ const route = useRoute()
         </div>
       </div>
 
-      <!-- Hosted Services Dropdown -->
+      <!-- Hosted Services / LCH Dropdown -->
       <div class="nav-dropdown">
-        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/hosted-services') }">
+        <span class="dropdown-trigger" :class="{ 'is-active': route.path.startsWith('/hosted-services') || route.path.startsWith('/lyrascuckhq') }">
           Hosted Services ▾
         </span>
         <div class="dropdown-menu">
           <NuxtLink to="/hosted-services/beammp">BeamMP Server Terms</NuxtLink>
+          <NuxtLink to="/lyrascuckhq/lchdiscordtos">LCH Discord Terms</NuxtLink>
+          <NuxtLink to="/lyrascuckhq/holymolybot">Holy Moly Bot Terms</NuxtLink>
         </div>
       </div>
 

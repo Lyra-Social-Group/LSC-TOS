@@ -34,10 +34,6 @@ export default defineNuxtConfig({
       // Prevents broken links or missing content queries from blowing up the deployment
       failOnError: false,
       // Exclude legacy/orphan routes that no longer have valid Markdown files
-      ignore: [
-        '/old-tos/holy-moly-bot-tos',
-        '/tos'
-      ],
       routes: [
         '/',
         '/tos/discord',
@@ -52,7 +48,9 @@ export default defineNuxtConfig({
         '/community/events',
         '/community/verification',
         '/governance/staff-code-of-conduct',
-        '/hosted-services/beammp'
+        '/hosted-services/beammp',
+        '/lyrascuckhq/lchdiscordtos',
+        '/lyrascuckhq/holymolybot'
       ]
     }
   }

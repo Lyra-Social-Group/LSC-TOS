@@ -7,47 +7,315 @@ Maintainer: Lyra Social Group Administration
 Contact: LEGAL@LYRAFOXWOOD.APP
 ---
 
-# Discord Terms of Service
+# Lyra Social Group Discord Terms of Service
 
 ## 1. Acceptance of Terms
-By joining, accessing, or participating in any Discord server operated by **Lyra Social Group**, you explicitly agree to be bound by these Terms of Service, our Community Guidelines (`community/guidelines.md`), and all applicable external platform policies, including the official Discord Terms of Service and Discord Community Guidelines.
 
-If you do not agree with any portion of these terms, you must immediately leave all Lyra Social Group Discord servers.
+By joining, accessing, viewing, or participating in any Discord server, community space, event channel, or associated communication platform operated by **Lyra Social Group**, you acknowledge that you have read, understood, and agreed to these Terms of Service.
 
-## 2. Eligibility & Account Security
-* **Age Requirements:** You must meet the minimum age required by Discord for your country of residence (13+ in the United States and most jurisdictions). Accounts found to belong to underage users will be reported to Discord Trust & Safety and permanently removed.
-* **Account Responsibility:** You are solely responsible for maintaining the security of your Discord account and all activity conducted through it. Claims of "unauthorized access," "hacked accounts," or "siblings using my account" do not excuse policy violations; actions will be enforced against the account directly.
-* **Verification & Access Tiers:** Access to specific text channels, voice hubs, or community roles may require passing automated verification checks, phone/email verifications, or manual staff review as outlined in `community/verification.md`.
+These Terms apply alongside:
 
-## 3. User Conduct & Prohibited Behavior
-While participating in our Discord servers, you agree not to engage in any of the following activities:
-* **Harassment & Abuse:** Do not engage in targeted harassment, hate speech, doxxing, personal threats, or witch-hunting against any community member or staff.
-* **Malicious Activity:** Do not distribute viruses, malware, IP loggers, phishing links, or unauthorized software exploits.
-* **Spam & Advertising:** Unsolicited mass tagging, message spamming, self-promotion outside designated channels, and mass direct messaging (DM advertising) of server members are strictly prohibited.
-* **Bypassing Restrictions:** Attempting to evade mutes, timeouts, or bans using alternate accounts ("alts"), VPNs, or proxy tools will result in immediate permanent bans across all linked accounts.
+- Lyra Social Group Community Guidelines (`community/guidelines.md`)
+- Lyra Social Group Privacy Policy (`privacy/global.md`)
+- Data Retention Policy (`privacy/data-retention.md`)
+- Applicable Discord Terms of Service and Discord Community Guidelines
 
-## 4. User-Generated Content & Intellectual Property
-* **Ownership:** You retain ownership of the text, images, media, and assets you share within our Discord channels.
-* **License Grant:** By posting content in Lyra Social Group servers, you grant us a non-exclusive, royalty-free, worldwide license to display, host, and distribute that content strictly for operational, archival, and moderation purposes within our ecosystem.
-* **Illegal & Infringing Content:** You must not post material that infringes upon third-party copyrights, trademarks, or trade secrets, nor any content that violates regional laws.
+If you do not agree with these terms, you must immediately discontinue participation in Lyra Social Group Discord communities.
 
-## 5. Voice & Virtual Spaces Decorum
-* **Audio Standards:** Users in voice channels must avoid intentional microphone ear-raping, excessive noise-making, screaming, or soundboard spam that disrupts conversations.
-* **Streaming & Recording:** Streaming or recording voice channels is permitted provided all active participants are aware and consenting, particularly during community events (`community/events.md`).
+---
 
-## 6. Moderation, Enforcement & Appeals
-* **Staff Authority:** Server administrators and moderators maintain sole discretion to enforce community rules. Enforcement actions include verbal warnings, formal warning logs, temporary mutes, kicks, and permanent bans.
-* **Immediate Removal:** Administration reserves the right to restrict or terminate server access for any user at any time for actions deemed harmful to community safety or system stability, even if not explicitly enumerated in this document.
-* **Appeals Process:** Users subjected to permanent disciplinary actions may review eligibility for an appeal by following the procedure outlined in `community/appeals.md`.
+# 2. Eligibility & Account Responsibility
 
-## 7. Disclaimer & Limitation of Liability
-Lyra Social Group Discord servers are provided on an "as is" and "as available" basis. Lyra Social Group makes no warranties, express or implied, regarding uptime, server performance, or message retention. Under no circumstances shall server owners, administrators, or staff be liable for damages resulting from your participation in our spaces or interactions with other members.
+## 2.1 Age Requirements
 
-## 8. Amendments & Updates
-We reserve the right to modify these Terms of Service at any time. Changes will be recorded in `CHANGELOG.md` and take effect immediately upon being merged into this repository. Your continued participation in our Discord spaces following an update constitutes acceptance of the revised terms.
+Users must meet Discord's minimum age requirement applicable to their location.
 
-## 9. Inquiries & Contact
-For questions regarding these terms, moderation inquiries, or administrative concerns, please reach out via:
-* **Legal Email:** [LEGAL@LYRAFOXWOOD.APP](mailto:LEGAL@LYRAFOXWOOD.APP)
-* **General Administrative Email:** [lsg@lyrafoxwood.app](mailto:lsg@lyrafoxwood.app)
-* **Discord:** Open an administrative support ticket in our primary Discord server.
+Accounts discovered to belong to users below Discord's minimum required age may be removed and reported through appropriate channels.
+
+---
+
+## 2.2 Account Security
+
+Users are responsible for maintaining the security of their own Discord accounts.
+
+This includes:
+
+- Protecting passwords and authentication methods.
+- Enabling available account security features.
+- Preventing unauthorized account access.
+
+Users remain responsible for activity performed through their account.
+
+Claims involving:
+
+- Account sharing.
+- Compromised accounts.
+- Friends or family using an account.
+- Unauthorized access.
+
+may not prevent moderation action if violations occur through that account.
+
+---
+
+## 2.3 Verification & Access Control
+
+Lyra Social Group may require additional verification before granting access to certain areas.
+
+Verification methods may include:
+
+- Automated verification systems.
+- Role-based access checks.
+- Manual staff review.
+- Security screening procedures.
+
+Access levels may vary depending on community requirements.
+
+---
+
+# 3. Community Conduct & Prohibited Behavior
+
+All members are expected to help maintain a respectful and safe environment.
+
+The following behavior is prohibited:
+
+---
+
+## 3.1 Harassment & Abuse
+
+Users may not engage in:
+
+- Targeted harassment.
+- Bullying.
+- Hate speech.
+- Threats.
+- Doxxing.
+- Stalking.
+- Witch-hunting.
+- Encouraging harassment against others.
+
+---
+
+## 3.2 Malicious Activity
+
+Users may not:
+
+- Distribute malware.
+- Share phishing links.
+- Use malicious software.
+- Attempt unauthorized access.
+- Exploit Discord or community systems.
+- Collect user information without permission.
+
+---
+
+## 3.3 Spam & Advertising
+
+Prohibited activities include:
+
+- Message spam.
+- Excessive tagging.
+- Unauthorized advertisements.
+- DM advertising members.
+- Recruiting users for competing communities without permission.
+
+Promotional content may only be shared in approved areas.
+
+---
+
+## 3.4 Ban and Restriction Evasion
+
+Attempting to bypass moderation actions using:
+
+- Alternate accounts.
+- VPNs.
+- Proxy services.
+- Account manipulation.
+
+may result in permanent removal from Lyra Social Group communities.
+
+---
+
+# 4. User Content & Intellectual Property
+
+## 4.1 Ownership of User Content
+
+Users retain ownership of content they create and share, including:
+
+- Messages.
+- Images.
+- Videos.
+- Artwork.
+- Files.
+- Other user-created materials.
+
+---
+
+## 4.2 Community Usage License
+
+By sharing content within Lyra Social Group Discord servers, you provide Lyra Social Group with a limited, non-exclusive license to:
+
+- Display content within the community.
+- Store content as required for platform operation.
+- Review content for moderation purposes.
+- Preserve content for administrative records.
+
+This license exists only for operating and maintaining Lyra Social Group services.
+
+---
+
+## 4.3 Illegal or Infringing Content
+
+Users may not upload or distribute content that:
+
+- Violates applicable laws.
+- Infringes intellectual property rights.
+- Contains unauthorized private information.
+- Violates Discord policies.
+
+---
+
+# 5. Voice Channels, Events & Virtual Spaces
+
+## 5.1 Voice Channel Conduct
+
+Users must avoid:
+
+- Excessive microphone noise.
+- Intentional disruption.
+- Soundboard abuse.
+- Harassing behavior.
+- Actions intended to interfere with conversations.
+
+---
+
+## 5.2 Recording & Streaming
+
+Recording, streaming, or capturing community interactions should only occur with appropriate awareness and consent from participants.
+
+Additional rules may apply during:
+
+- Official events.
+- Community streams.
+- Public broadcasts.
+
+---
+
+# 6. Moderation & Enforcement
+
+## 6.1 Staff Authority
+
+Lyra Social Group administrators and moderators are responsible for maintaining community safety and may take enforcement action when necessary.
+
+Possible actions include:
+
+- Informal warnings.
+- Official warnings.
+- Message removal.
+- Timeouts.
+- Kicks.
+- Temporary bans.
+- Permanent bans.
+
+---
+
+## 6.2 Administrative Discretion
+
+Staff may take action against behavior that threatens:
+
+- Community safety.
+- Member privacy.
+- Server stability.
+- The reputation of Lyra Social Group.
+
+Not every possible violation can be listed individually. Staff may act based on the overall impact of a user's behavior.
+
+---
+
+## 6.3 Appeals
+
+Users may request review of eligible moderation actions through the official appeals process:
+
+`community/appeals.md`
+
+Appeals must include relevant information and should be submitted respectfully.
+
+---
+
+# 7. Privacy & Data Collection
+
+Lyra Social Group may collect limited information necessary for operating Discord communities.
+
+This may include:
+
+- Discord user IDs.
+- Usernames and profile information.
+- Role assignments.
+- Moderation records.
+- Reports and appeals.
+- Bot interaction logs.
+- Security-related information.
+
+Collected information is used for:
+
+- Community management.
+- Security enforcement.
+- Moderation.
+- Technical troubleshooting.
+
+Lyra Social Group does not sell member information.
+
+---
+
+# 8. Disclaimer & Limitation of Liability
+
+Lyra Social Group Discord communities are provided on an:
+
+> "As Is" and "As Available" basis.
+
+Lyra Social Group does not guarantee:
+
+- Continuous availability.
+- Permanent message retention.
+- Error-free operation.
+- Availability of Discord services.
+
+Lyra Social Group is not responsible for damages resulting from:
+
+- Discord outages.
+- User interactions.
+- User-generated content.
+- Account issues.
+- Third-party services.
+
+---
+
+# 9. Amendments & Updates
+
+Lyra Social Group reserves the right to modify these Terms of Service at any time.
+
+Updates may be recorded through:
+
+- Repository changes.
+- Changelog entries.
+- Community announcements.
+
+Continued participation after updates indicates acceptance of the revised terms.
+
+---
+
+# 10. Contact Information
+
+For questions regarding these Terms, privacy concerns, or administrative matters:
+
+**Legal & Compliance:**  
+LEGAL@LYRAFOXWOOD.APP
+
+**General Administration:**  
+LSG@LYRAFOXWOOD.APP
+
+**Discord Support:**  
+Open an administrative support ticket through the official Lyra Social Group Discord server.
+
+---
+
+© 2026 Lyra Social Group LLC. All rights reserved.
