@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   
-  // Enables SSR and static site generation (SSG) for GitHub Pages
+  // Enables SSR and edge-rendering on Cloudflare Pages
   ssr: true,
-  
+
   app: {
     head: {
       title: 'Lyra Social Group — Legal & Community Hub',
@@ -23,21 +23,36 @@ export default defineNuxtConfig({
     highlight: {
       theme: 'one-dark-pro'
     },
-    // Document driven configuration for routing resolution
+    // Document-driven configuration disabled in favor of custom router
     documentDriven: false
   },
 
-  // Nitro static prerendering rules for static hosts like GitHub Pages
+  // Nitro engine configuration optimized for Cloudflare Pages
   nitro: {
+    preset: 'cloudflare-pages',
     prerender: {
       crawlLinks: true,
+      // Prevents broken links or missing content queries from blowing up the deployment
+      failOnError: false,
+      // Exclude legacy/orphan routes that no longer have valid Markdown files
+      ignore: [
+        '/old-tos/holy-moly-bot-tos',
+        '/tos'
+      ],
       routes: [
         '/',
         '/tos/discord',
+        '/tos/bot',
+        '/tos/contributors',
         '/privacy/privacy-policy',
+        '/privacy/data-retention',
         '/community/guidelines',
-        '/old-tos/lch-tos',
-        '/old-tos/holy-moly-bot-tos'
+        '/community/moderation',
+        '/community/appeals',
+        '/community/creators',
+        '/community/events',
+        '/community/verification',
+        '/governance/staff-code-of-conduct'
       ]
     }
   }

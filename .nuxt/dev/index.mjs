@@ -673,16 +673,37 @@ const _inlineRuntimeConfig = {
       "/tos/discord": {
         "prerender": true
       },
+      "/tos/bot": {
+        "prerender": true
+      },
+      "/tos/contributors": {
+        "prerender": true
+      },
       "/privacy/privacy-policy": {
+        "prerender": true
+      },
+      "/privacy/data-retention": {
         "prerender": true
       },
       "/community/guidelines": {
         "prerender": true
       },
-      "/old-tos/lch-tos": {
+      "/community/moderation": {
         "prerender": true
       },
-      "/old-tos/holy-moly-bot-tos": {
+      "/community/appeals": {
+        "prerender": true
+      },
+      "/community/creators": {
+        "prerender": true
+      },
+      "/community/events": {
+        "prerender": true
+      },
+      "/community/verification": {
+        "prerender": true
+      },
+      "/governance/staff-code-of-conduct": {
         "prerender": true
       },
       "/_nuxt/builds/meta/**": {
@@ -703,7 +724,19 @@ const _inlineRuntimeConfig = {
         "ssr": true,
         "prerender": true
       },
+      "/tos/bot/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/tos/contributors/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
       "/privacy/privacy-policy/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/privacy/data-retention/_payload.json": {
         "ssr": true,
         "prerender": true
       },
@@ -711,11 +744,27 @@ const _inlineRuntimeConfig = {
         "ssr": true,
         "prerender": true
       },
-      "/old-tos/lch-tos/_payload.json": {
+      "/community/moderation/_payload.json": {
         "ssr": true,
         "prerender": true
       },
-      "/old-tos/holy-moly-bot-tos/_payload.json": {
+      "/community/appeals/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/community/creators/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/community/events/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/community/verification/_payload.json": {
+        "ssr": true,
+        "prerender": true
+      },
+      "/governance/staff-code-of-conduct/_payload.json": {
         "ssr": true,
         "prerender": true
       }
