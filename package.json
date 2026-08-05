@@ -3,12 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "install": "npm install --ignore-scripts",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "deploy": "nuxt build && npx wrangler pages deploy dist"
+    "preview": "nuxt preview"
   },
   "devDependencies": {
     "@nuxt/content": "^2.12.0",
